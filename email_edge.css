@@ -1,0 +1,92 @@
+﻿@font-face {
+    font-family: DBHeavent;
+    src: url("fonts/DB Heavent/DB Heavent Original/DB Heavent v3.2.1.ttf");
+}
+
+@font-face {
+    font-family: DBHeaventBd;
+    src: url("fonts/DB Heavent/DB Heavent Original/DB Heavent Bd v3.2.1.ttf");
+}
+
+@font-face {
+    font-family: DBHeaventBlk;
+    src: url("fonts/DB Heavent/DB Heavent Original/DB Heavent Blk v3.2.1.ttf");
+}
+
+@font-face {
+    font-family: DBHeaventMed;
+    src: url("fonts/DB Heavent/DB Heavent Original/DB Heavent Med v3.2.1.ttf");
+}
+
+body {
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    font-family: DBHeavent !important;
+}
+
+.header {
+}
+
+.content-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 35px 0 !important;
+}
+
+    .content-container .content-body {
+        padding-left: 35px;
+        letter-spacing: 0.3px;
+    }
+
+table {
+    border-collapse: collapse;
+}
+
+.content-spliter {
+    margin: 20px 0;
+}
+
+.footer {
+}
+
+.darkblue-19, .darkblue-19-bold, .darkblue-22, .darkblue-22-bold, .darkblue-25, .darkblue-25-bold {
+    color: darkblue !important;
+}
+
+.darkblue-19, .darkblue-19-bold {
+    font-size: 19px !important;
+}
+
+.darkblue-19-bold, .darkblue-22-bold, .darkblue-25-bold {
+    font-family: DBHeaventBlk !important;
+}
+
+.darkblue-22, .darkblue-22-bold {
+    font-size: 22px !important;
+}
+
+.darkblue-25, .darkblue-25-bold {
+    font-size: 25px !important;
+}
+
+.color-young-orange {
+    color: #F15A38 !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.font-DBHeaventMed {
+    font-family: DBHeaventMed !important;
+}
+
+.width-25-percent {
+    width: 25%;
+}
